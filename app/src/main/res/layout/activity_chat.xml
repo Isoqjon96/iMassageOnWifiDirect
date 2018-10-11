@@ -46,6 +46,7 @@
             android:layout_height="36dp"
             android:src="@drawable/telegram"
             android:layout_weight="1"
+            android:layout_gravity="center_vertical"
             />
     </android.support.v7.widget.LinearLayoutCompat>
 </FrameLayout>
