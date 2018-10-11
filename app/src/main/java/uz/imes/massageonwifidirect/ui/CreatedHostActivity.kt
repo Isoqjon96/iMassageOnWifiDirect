@@ -1,7 +1,8 @@
-package uz.imes.massageonwifidirect
+package uz.imes.massageonwifidirect.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import uz.imes.massageonwifidirect.R
 
 class CreatedHostActivity : AppCompatActivity() {
 

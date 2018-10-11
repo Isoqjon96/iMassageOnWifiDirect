@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    tools:context="uz.imes.massageonwifidirect.ChatActivity">
+    tools:context="uz.imes.massageonwifidirect.ui.ChatActivity">
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tvChatName"
