@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="uz.imes.massageonwifidirect.WaitingActivity">
-    <ProgressBar
-        android:id="@+id/sbWait"
-        style="@style/Base.Widget.AppCompat.ProgressBar"
+    tools:context="uz.imes.massageonwifidirect.WaitingActivity"
+    >
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-
+        android:alpha="0.7"
+        android:background="#C0C0C0"
         />
-</android.support.constraint.ConstraintLayout>
+    <ProgressBar
+        android:id="@+id/sbWait"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@color/colorWhite"
+        android:progressTint="@color/colorBlue"
+        />
+</FrameLayout>

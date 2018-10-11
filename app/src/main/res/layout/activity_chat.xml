@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="uz.imes.massageonwifidirect.ChatActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvChatName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat Name"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="52dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:weightSum="10"
+        >
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect"
+            android:layout_weight="9"
+            />
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:src="@drawable/telegram"
+            android:layout_weight="1"
+            />
+    </android.support.v7.widget.LinearLayoutCompat>
+</FrameLayout>
