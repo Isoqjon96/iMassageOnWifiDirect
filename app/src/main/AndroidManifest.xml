@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".CreatedHostActivity"/>
+        <activity android:name=".WaitingActivity"/>
+        <activity android:name=".ChatActivity"/>
 
-        </activity>
-        <activity android:name=".CreatedHostActivity" />
-        <activity android:name=".WaitingActivity">
-
-        </activity>
-        <activity android:name=".ChatActivity">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.Splash"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
