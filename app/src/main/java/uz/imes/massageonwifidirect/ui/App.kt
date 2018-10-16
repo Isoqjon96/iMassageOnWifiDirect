@@ -1,5 +1,4 @@
-package uz.imes.imessanger
-
+package uz.imes.massageonwifidirect.ui
 import android.app.Application
 
 /**

@@ -1,4 +1,4 @@
-package uz.imes.imessanger
+package uz.imes.massageonwifidirect.ui
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import kotlinx.android.synthetic.main.my_message.view.*
 import kotlinx.android.synthetic.main.other_message.view.*
+import uz.imes.imessanger.App
+import uz.imes.imessanger.MessageData
 import uz.imes.massageonwifidirect.R
 
 /**
