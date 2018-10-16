@@ -11,11 +11,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        var i = Intent(this,CreatedHostActivity::class.java)
         tvJoinHost.setOnClickListener {
-            startActivity(Intent(this, WaitingActivity::class.java))
+            i.putExtra("name",1)
+            startActivity(i)
         }
         tvCreateHost.setOnClickListener {
-            startActivity(Intent(this, CreatedHostActivity::class.java))
+            i.putExtra("name",2)
+            startActivity(i)
         }
     }
 }
