@@ -15,6 +15,7 @@ import uz.imes.massageonwifidirect.R
  */
 class RoomItemAdapter(val context: Context) : RecyclerView.Adapter<MessagesViewHolder>() {
 
+
     private val MY_MESSAGE_KEY = 1
     private val OTHER_MESSAGE_KEY = 2
     var Messages: ArrayList<MessageData> = ArrayList()
@@ -36,7 +37,7 @@ class RoomItemAdapter(val context: Context) : RecyclerView.Adapter<MessagesViewH
         return a
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): MessagesViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessagesViewHolder {
         return if (viewType == MY_MESSAGE_KEY) {
             MyMessageViewHolder(LayoutInflater.from(parent?.context).inflate(R.layout.my_message, parent, false))
         } else {
@@ -46,10 +47,9 @@ class RoomItemAdapter(val context: Context) : RecyclerView.Adapter<MessagesViewH
 
     override fun getItemCount(): Int = Messages.size
 
-    override fun onBindViewHolder(holder: MessagesViewHolder?, position: Int) {
+    override fun onBindViewHolder(holder: MessagesViewHolder, position: Int) {
         val message = Messages.get(position)
         holder?.bind(message)
-
     }
 
 
