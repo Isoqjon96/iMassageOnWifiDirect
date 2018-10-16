@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="uz.imes.massageonwifidirect.ui.CreatedHostActivity"
+    android:padding="8dp"
     >
     <android.support.v7.widget.LinearLayoutCompat
-        android:id="@+id/ltCreate"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -28,25 +28,4 @@
             android:background="@drawable/background_layout"
             />
     </android.support.v7.widget.LinearLayoutCompat>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        android:id="@+id/ltWait"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:alpha="0.7"
-            android:background="#C0C0C0"
-            />
-        <ProgressBar
-            android:id="@+id/sbWait"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:background="@color/colorWhite"
-
-            />
-    </FrameLayout>
 </FrameLayout>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MassageOnWifiDirect.iml" filepath="$PROJECT_DIR$/MassageOnWifiDirect.iml" />
+      <module fileurl="file://D:\Android\Kurs\iMassageOnWifiDirect\MassageOnWifiDirect.iml" filepath="D:\Android\Kurs\iMassageOnWifiDirect\MassageOnWifiDirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
