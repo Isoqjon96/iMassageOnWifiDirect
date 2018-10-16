@@ -18,7 +18,6 @@
 
     <TextView
         android:id="@+id/tv_OtherMessage"
-        android:background="@drawable/other_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:maxWidth="240dp"
