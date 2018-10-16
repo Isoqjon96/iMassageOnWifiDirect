@@ -1,4 +1,4 @@
-package uz.imes.imessanger
+package uz.imes.massageonwifidirect.ui
 
 /**
  * Created by Isoq Hakimov on 10.10.2018.
