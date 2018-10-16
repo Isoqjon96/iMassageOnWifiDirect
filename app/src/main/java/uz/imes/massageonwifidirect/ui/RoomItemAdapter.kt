@@ -39,9 +39,9 @@ class RoomItemAdapter(val context: Context) : RecyclerView.Adapter<MessagesViewH
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessagesViewHolder {
         return if (viewType == MY_MESSAGE_KEY) {
-            MyMessageViewHolder(LayoutInflater.from(parent?.context).inflate(R.layout.my_message, parent, false))
+            MyMessageViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.my_message, parent, false))
         } else {
-            OtherMessageViewHolder(LayoutInflater.from(parent?.context).inflate(R.layout.other_message, parent, false))
+            OtherMessageViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.other_message, parent, false))
         }
     }
 
@@ -49,7 +49,7 @@ class RoomItemAdapter(val context: Context) : RecyclerView.Adapter<MessagesViewH
 
     override fun onBindViewHolder(holder: MessagesViewHolder, position: Int) {
         val message = Messages.get(position)
-        holder?.bind(message)
+        holder.bind(message)
     }
 
 
