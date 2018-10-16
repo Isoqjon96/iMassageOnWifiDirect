@@ -3,14 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MassageOnWifiDirect.iml" filepath="$PROJECT_DIR$/MassageOnWifiDirect.iml" />
-      <module fileurl="file://D:\Android\Kurs\iMassageOnWifiDirect\MassageOnWifiDirect.iml" filepath="D:\Android\Kurs\iMassageOnWifiDirect\MassageOnWifiDirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://D:\Android\Kurs\iMassageOnWifiDirect\app\app.iml" filepath="D:\Android\Kurs\iMassageOnWifiDirect\app\app.iml" />
-      <module fileurl="file://C:\Users\IsoqjonPC\Android_Project\MassageOnWifiDirect\iMassageOnWifiDirect.iml" filepath="C:\Users\IsoqjonPC\Android_Project\MassageOnWifiDirect\iMassageOnWifiDirect.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/iMassageOnWifiDirect.iml" filepath="$PROJECT_DIR$/iMassageOnWifiDirect.iml" />
->>>>>>> c659be10c61fde36a5c2645a869d2adca9b3283e
     </modules>
   </component>
 </project>
